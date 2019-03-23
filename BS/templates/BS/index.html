@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="rtl" lang="ar" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+{% load static %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Book Store</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="{% static 'BS/templatemo_style.css' %}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--  Free CSS Templates from www.templatemo.com -->
+<div id="templatemo_container">
+	<div id="templatemo_menu">
+    </div> <!-- end of menu -->
+    
+    <div id="templatemo_header">
+    </div> <!-- end of header -->
+    
+    <div id="templatemo_content">
+        
+        <div id="templatemo_content_right">
+
+        	<div class="templatemo_product_box">
+            	<h1>الكتب العربية</h1>
+   	        <img src="{% static 'BS/images/newbbg.jpg' %}" alt="image" />
+                <div class="product_info">
+                    <div class="buy_now_button"><a href="{% url 'BS:ar_books' %}">الموقع</a></div>
+                </div>
+                <div class="cleaner">&nbsp;</div>
+            </div>
+            
+            <div class="cleaner_with_width">&nbsp;</div>
+            
+            <div class="templatemo_product_box">
+            	<h1>الكتب الانجليزية</h1>
+       	    <img src="{% static 'BS/images/newbbg.jpg' %}" alt="image" />
+                <div class="product_info">
+                    <div class="buy_now_button"><a href="{% url 'BS:en_books' %}">الموقع</a></div>
+                </div>
+                <div class="cleaner">&nbsp;</div>
+            </div>
+            
+            <div class="cleaner_with_height">&nbsp;</div>
+            
+            <div class="templatemo_product_box">
+            	<h1>أدوات مكتبية</h1>
+   	        <img src="{% static 'BS/images/newbbg.jpg' %}" alt="image" />
+                <div class="product_info">
+                    <div class="buy_now_button"><a href="{% url 'BS:lib_tools' %}">الموقع</a></div>
+                </div>
+                <div class="cleaner">&nbsp;</div>
+            </div>
+            
+            <div class="cleaner_with_width">&nbsp;</div>
+            
+            <div class="templatemo_product_box">
+            	<h1>أدوات هندسية</span></h1>
+            	<img src="{% static 'BS/images/newbbg.jpg' %}" alt="image" />
+                <div class="product_info">
+                    <div class="buy_now_button"><a href="{% url 'BS:eng_tools' %}">الموقع</a></div>
+                </div>
+                <div class="cleaner">&nbsp;</div>
+            </div>
+            
+            <div class="cleaner_with_height">&nbsp;</div>
+            
+        </div> <!-- end of content right -->
+    
+    	<div class="cleaner_with_height">&nbsp;</div>
+    </div> <!-- end of content -->
+    
+    <div id="templatemo_footer">
+    
+        <!-- Credit: www.templatemo.com -->	</div> 
+    <!-- end of footer -->
+<!--  Free CSS Template www.templatemo.com -->
+</div> <!-- end of container -->
+<!-- templatemo 086 book store -->
+<!-- 
+Book Store Template 
+http://www.templatemo.com/preview/templatemo_086_book_store 
+-->
+</body>
+</html>
